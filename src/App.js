@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import ProjectCard from "./components/ProjectCard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="container">
+      <Navbar />
+
+      <section id="about" className="section">
+        <h2>About Me</h2>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I'm a software engineer with a background in healthcare, transitioning into tech to build meaningful and efficient solutions.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </section>
+
+      <section id="projects" className="section">
+        <h2>Featured Projects</h2>
+        <ProjectCard title="Capstone" description="Caspstone Project" />
+        <ProjectCard title="Weather App" description="A simple weather app fetching real-time data using an API." />
+        <ProjectCard title="Book Store API" description="An API-integrated bookstore website for managing books." />
+      </section>
+
+      <section id="contact" className="section">
+        <h2>Contact</h2>
+        <p>Email: jhickey09@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/joyanna-marie">github.com/joyanna-marie</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/joyanna-hickey/">linkedin.com/in/joyanna-hickey/</a></p>
+      </section>
     </div>
   );
 }
