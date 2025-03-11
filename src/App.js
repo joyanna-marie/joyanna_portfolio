@@ -22,14 +22,14 @@ function App() {
     title="Weather App" 
     description="A React weather app that fetches live weather data." 
     link="https://joyanna-weather-app.netlify.app/"
-    image="/images/weather-app.jpg"
+    image="/images/weather-app.png"
   />
 
   <ProjectCard 
     title="Capstone" 
     description="Capstone Project showcasing Full Stack skills." 
     link="https://your-capstone-link.com"
-    image="/images/capstone.jpg"
+    image="/images/capstone.webp"
   />
 
   <ProjectCard 
