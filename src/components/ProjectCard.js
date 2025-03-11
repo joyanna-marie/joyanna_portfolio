@@ -1,13 +1,16 @@
 import React from "react";
 import "../App.css";
 
-function ProjectCard({ title, description }) {
+const ProjectCard = ({ title, description, link, image }) => {
   return (
     <div className="project-card">
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <img src={image} alt={`${title} Thumbnail`} />
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </a>
     </div>
   );
-}
+};
 
 export default ProjectCard;

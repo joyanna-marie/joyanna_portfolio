@@ -16,11 +16,31 @@ function App() {
       </section>
 
       <section id="projects" className="section">
-        <h2>Featured Projects</h2>
-        <ProjectCard title="Capstone" description="Caspstone Project" />
-        <ProjectCard title="Weather App" description="A simple weather app fetching real-time data using an API." />
-        <ProjectCard title="Book Store API" description="An API-integrated bookstore website for managing books." />
-      </section>
+  <h2>Featured Projects</h2>
+
+  <ProjectCard 
+    title="Weather App" 
+    description="A React weather app that fetches live weather data." 
+    link="https://joyanna-weather-app.netlify.app/"
+    image="/images/weather-app.jpg"
+  />
+
+  <ProjectCard 
+    title="Capstone" 
+    description="Capstone Project showcasing Full Stack skills." 
+    link="https://your-capstone-link.com"
+    image="/images/capstone.jpg"
+  />
+
+  <ProjectCard 
+    title="Book Store API" 
+    description="An API-integrated bookstore website for managing books." 
+    link="https://your-bookstore-link.com"
+    image="/images/bookstore.jpg"
+  />
+</section>
+
+
 
       <section id="contact" className="section">
         <h2>Contact</h2>
