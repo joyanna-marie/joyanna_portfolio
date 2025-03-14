@@ -19,13 +19,6 @@ function App() {
   <h2>Featured Projects</h2>
 
   <ProjectCard 
-    title="Weather App" 
-    description="A React weather app that fetches live weather data." 
-    link="https://joyanna-weather-app.netlify.app/"
-    image="/images/weather-app.png"
-  />
-
-  <ProjectCard 
     title="Capstone" 
     description="Capstone Project showcasing Full Stack skills." 
     link="https://your-capstone-link.com"
@@ -33,9 +26,16 @@ function App() {
   />
 
   <ProjectCard 
+    title="Weather App" 
+    description="A React weather app that fetches live weather data." 
+    link="https://joyanna-weather-app.netlify.app/"
+    image="/images/weather-app.png"
+  />
+
+  <ProjectCard 
     title="Book Store API" 
     description="An API-integrated bookstore website for managing books." 
-    link="https://your-bookstore-link.com"
+    link="https://joyanna-bookstoreapi.netlify.app/"
     image="/images/bookstore.jpg"
   />
 </section>
